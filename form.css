@@ -1,0 +1,93 @@
+
+html {
+
+ margin: 0;
+ padding: 0;
+ width: 100%;
+
+}
+
+body {
+    
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ height: 100vh;
+ font-family: 'Poppins', sans-serif;
+ background: url("https://images4.alphacoders.com/103/1033740.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ display: table;
+ 
+}
+
+.signin {
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+
+}
+
+h1 { 
+
+ font-weight: lighter;
+ color: #fff;
+ font-size: 50px;
+ text-align: center;
+
+}
+
+input {
+
+ display: block;
+ width: 360px;
+ height: 50px;
+ background: rgba(0,0,0,0.3);
+ outline: none;
+ border: 1px solid rgba(0,0,0,0.5);
+ font-weight: lighter;
+ font-size: 14px;
+ font-family: 'Poppins', sans-serif;
+ color: #fff;
+ margin-bottom: 10px;
+ padding-left: 10px;
+ border-radius: 6px;
+ 
+}
+
+::placeholder {
+
+ color: #fff;
+    
+}
+
+button {
+
+ width: 360px;
+ height: 50px;
+ font-size: 15px;
+ font-family: 'Poppins', sans-serif;
+ font-weight: lighter;
+ color: #fff;
+ border: 0;
+ border-radius: 6px;
+ background: linear-gradient(45deg,#3198E2,#6D59C0,#B93590,#E33F5F,#FDD579);
+
+}
+
+button:hover {
+
+ transition: 0.3s;
+ font-size: 16px;
+ background: linear-gradient(45deg,#2f85c2,#50418f,#9e327c,#bf3551,#c4a55d);
+
+}
+
+h3 {
+
+ color: #fff;
+ 
+}
